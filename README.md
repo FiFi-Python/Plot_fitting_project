@@ -43,6 +43,13 @@ Packages
 We are using: 
 PyQt5 <https://pypi.org/project/PyQt5/>
 
+Sys <https://docs.python.org/3/library/sys.html>
+
+Webbrowser <https://docs.python.org/3/library/webbrowser.html>
+
+Os <https://docs.python.org/3/library/os.html>
+
+Cv2 <https://pypi.org/project/opencv-python/>
 Description
 -----------
 The main menu of the program from which the image is loaded and then the result is obtained in the form of the output image.
