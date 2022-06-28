@@ -43,7 +43,7 @@ Packages
 We are using: 
 PyQt5 <https://pypi.org/project/PyQt5/>
 
-Description:
+Description
 -----------
 The main menu of the program from which the image is loaded and then the result is obtained in the form of the output image.
 
