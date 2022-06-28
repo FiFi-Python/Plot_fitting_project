@@ -35,6 +35,17 @@ How to use the program?
 4. Enjoy the program and its results.
 
 ----------------------------------------------------------------
+Main (GUI)
+----------
+
+Packages
+--------
+We are using: 
+PyQt5 <https://pypi.org/project/PyQt5/>
+
+Description:
+-----------
+The main menu of the program from which the image is loaded and then the result is obtained in the form of the output image.
 
 DataRead
 =========
@@ -90,7 +101,7 @@ rotation is made. Note that there are 4 possibilities of correct rotation each o
 is tilted by multiplicity of 90 degres from another. Function returns array of four array
 each containing image and point of axes crossing after rotation.
 
-*******************************************************************8
+********************************************************************
 Axis looker
 ==========
 
