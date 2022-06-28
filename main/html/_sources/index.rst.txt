@@ -10,7 +10,7 @@ Welcome to Plot Image Fitter's technical documentation!
 and my friend Radosław Kluczewski. The resulting programme is meant to be
 able to rotate any plot image to its natural horizontal position and
 extract data points from an image. The code can be found on Github
-<https://github.com/FiFi-Python/Plot_fitting>
+<https://github.com/FiFi-Python/Plot_fitting_project>
 
 .. note::
 

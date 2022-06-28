@@ -18,7 +18,7 @@ class Window(QMainWindow):
         super().__init__(parent)
         
 
-        self.setWindowIcon(QIcon('./icons-shadowless-24/logo.jpg'))
+        self.setWindowIcon(QIcon('./icons/smiley-lol.png'))
         self.label = QLabel('JPII', self)
         self.label.setStyleSheet('border: 0.5px solid black;')
         self.setWindowTitle('Plot fitting: Menus & Toolbars')
@@ -80,12 +80,12 @@ class Window(QMainWindow):
 
     def _createActions(self):
         #self.newAction = QAction('&New', self)
-        self.openAction = QAction(QIcon("./icons-shadowless-24/plus.png"), '&Open...', self)
-        self.saveAaction = QAction(QIcon("./icons-shadowless-24/tick.png"), '&Save', self)
-        self.exitAction = QAction(QIcon("./icons-shadowless-24/prohibition.png"), '&Exit')
-        self.changeAction = QAction(QIcon("./icons-shadowless-24/wand.png"), '&Change', self) 
-        self.helpContentAction = QAction(QIcon("./icons-shadowless-24/book.png"), '&Help Content', self)
-        self.aboutAction = QAction(QIcon("./icons-shadowless-24/yin-yang.png"), '&About', self)
+        self.openAction = QAction(QIcon("./icons/plus.png"), '&Open...', self)
+        self.saveAaction = QAction(QIcon("./icons/tick.png"), '&Save', self)
+        self.exitAction = QAction(QIcon("./icons/prohibition.png"), '&Exit')
+        self.changeAction = QAction(QIcon("./icons/wand.png"), '&Change', self) 
+        self.helpContentAction = QAction(QIcon("./icons/book.png"), '&Help Content', self)
+        self.aboutAction = QAction(QIcon("./icons/yin-yang.png"), '&About', self)
         
         self.openAction.setShortcut('Ctrl+O')
         self.saveAaction.setShortcut('Ctrl+S')
@@ -238,7 +238,7 @@ class SubWindow(QWidget):
          super(SubWindow, self).__init__()
          self.resize(600, 300)
          self.setWindowTitle('About')
-         self.setWindowIcon(QIcon('./icons-shadowless-24/mail.png'))
+         self.setWindowIcon(QIcon('./icons/mail.png'))
 
 
          # Label
